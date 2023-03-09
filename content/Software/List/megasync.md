@@ -1,0 +1,6 @@
+* [MEGA](https://mega.io/)
+* [wiki.software.List.mega-cmd](mega-cmd.md)
+* [AUR (en) - megasync](https://aur.archlinux.org/packages/megasync)
+	* [software installation - How to install Megasync client in Arch-based Antergos Linux - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/200311/how-to-install-megasync-client-in-arch-based-antergos-linux)
+	* [Cannot start after update to 4.7.2-4 on Manjaro Linux · Issue #755 · meganz/MEGAsync](https://github.com/meganz/MEGAsync/issues/755)
+	* [[RESOLVED] error while loading shared libraries:cannot open shared / Newbie Corner / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=281012)

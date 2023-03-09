@@ -1,0 +1,8 @@
+* [Cringe meets theory of mind](Mapping%20out%20Self%20Actualization/Cringe%20meets%20theory%20of%20mind.md)
+* [Learning to sail the memes](Mapping%20out%20Self%20Actualization/Learning%20to%20sail%20the%20memes.md)
+* [Mapping The Human Heart](Mapping%20out%20Self%20Actualization/Mapping%20The%20Human%20Heart.md)
+* [What Humans Value](Mapping%20out%20Self%20Actualization/What%20Humans%20Value.md)
+* [The Human Social Interface](Mapping%20out%20Self%20Actualization/The%20Human%20Social%20Interface.md)
+* [Virtualizing The Self](Mapping%20out%20Self%20Actualization/Virtualizing%20The%20Self.md)
+* [Guide Posts for the Human Condition](Mapping%20out%20Self%20Actualization/Guide%20Posts%20for%20the%20Human%20Condition.md)
+* [For Manifesting Destiny](Mapping%20out%20Self%20Actualization/For%20Manifesting%20Destiny.md)

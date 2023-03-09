@@ -1,0 +1,1 @@
+Examples would be JSON, TXT, CSV, JPG, ML4, MOV etc.

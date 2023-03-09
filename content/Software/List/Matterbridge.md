@@ -1,0 +1,1 @@
+[42wim/matterbridge: bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble, vk and more with REST API (mattermost not required!)](https://github.com/42wim/matterbridge)

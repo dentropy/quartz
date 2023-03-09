@@ -1,0 +1,1 @@
+[From where does the word " question " come from ? ​ - Brainly.in](https://brainly.in/question/39196159)

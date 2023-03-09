@@ -1,0 +1,2 @@
+* [Canada’s gender identity rights Bill C-16 explained | CBC Docs POV](https://www.cbc.ca/cbcdocspov/features/canadas-gender-identity-rights-bill-c-16-explained)
+* [Legislative Summary of Bill C-16: An Act to amend the Canadian Human Rights Act and the Criminal Code](https://lop.parl.ca/sites/PublicWebsite/default/en_CA/ResearchPublications/LegislativeSummaries/421C16E)

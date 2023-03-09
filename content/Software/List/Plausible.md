@@ -1,0 +1,1 @@
+[Plausible Analytics | Simple, privacy-friendly Google Analytics alternative](https://plausible.io/)

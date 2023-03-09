@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="w878yXPO_US8ZAAYGdx8" name="Ver 0.0.1">
+        <mxGraphModel dx="2431" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="discord-messages" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="525" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type&quot; : STRING, // Default, Reply&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestamp&quot; :DATE TIME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestampeEdited&quot; : DATE TIME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;callEndedTimestamp&quot; : DATE TIME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isPinned&quot; : BOOL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;guildID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;channelID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;authorID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numAttachments&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numMentions&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numReactions&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numEmbeds&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numURLs&quot; : INT,&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="discord-channels" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="525" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;type&quot; : STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;categoryId&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;category&quot; : STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot; : INDEXED STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;topic&quot; : INDEXED STRING&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="555" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="discord-users" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="525" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;discriminator&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;color&quot; :STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isBot&quot; : BOOL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;avatarUrl&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;user_id&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;messenger&gt;-chat-channel" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="80" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot; : INDEXED STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;iconUrl&quot; : STRING&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="8" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="discord-attachments" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="1000" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;url&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;fileSizeBytes&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;guildID&quot; : INT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;userID&quot; : INT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;messageID&quot; : INT,&lt;br&gt;&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="13" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="discord-embeds" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1000" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;title&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;url&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestamp&quot; :DATE TIME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;description&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;thumbnailURL&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;messageID&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="15" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="discord-mentions" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="1000" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;userID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;messageID&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="17" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="discord-replies" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="1000" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;guildID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;channelID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;messageID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;fromUser&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;responseToUser&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="19" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="discord-emoji" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="1440" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;emojiID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isAnimated&quot; :BOOL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;imageURL&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numOccourances&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="23" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="discord-urls" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1440" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;hashedURL&quot; : INT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;URL&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;TLD&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;ROOT&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;firstSubDomain&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;secondSubDomain&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;numOccourances&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="25" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="discord-reactions" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="1000" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="{&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;messageID&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;emojiID&quot; : INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;fromUser&quot; :DATE TIME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;responseToUser&quot; : INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;thumbnailURL&quot; : STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;messageID&quot; : INT&lt;/div&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="27" vertex="1">
+                    <mxGeometry y="30" width="280" height="330" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

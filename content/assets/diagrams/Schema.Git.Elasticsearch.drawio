@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="DWXEcaNGE6nJeqHp9PMR" name="Page-1">
+        <mxGraphModel dx="811" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="git-commits" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="920" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;: STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;commit&quot;: STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;authorName&quot;: INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;authorEmail&quot;: INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;authorEmailDomain&quot;: INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;message&quot;: INDEXED STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;messageWordCount&quot;: INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;messageCharacterCount&quot;: INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;messageCharacterVersesWord&quot;: FLOAT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;paths&quot;:[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;insertions&quot;: INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;deletions&quot;: INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;path&quot;: STRING&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ......&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="950" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="git-repos" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="40" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;sourceURL&quot; : INDEXED STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // github ,gitlab, etc....&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;ownerName&quot; : INDEXED STRING&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;repoName&quot; : INDEXED STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;numCommits&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;numCommitters&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;firstCommit&quot; : DATE TIME,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;latestCommit&quot; : DATE TIME&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="70" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="git-committers" style="swimlane;startSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="480" width="280" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot; : INDEXED STRING,&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&amp;nbsp; &amp;nbsp; &quot;email&quot; : INDEXED STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;emailDomain&quot; : INDEXED STRING,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;numTotalCommits&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;numReposCommitedTo&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;totalNumLinesAdded&quot; : INT,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;totalNumLinesRemoved&quot; : INT&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="510" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Additional Analysis&lt;br&gt;Filename Extension,&lt;br&gt;Programming Language&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#f0f0f0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="490" width="330" height="270" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+place as a concept that relates to being somewhere, to here, there, elsewhere, home, roots and rootlessness, disembedding, placemaking, placelessness, branding, and dwelling.

@@ -1,0 +1,1 @@
+[Reality Is Just a Game Now — The New Atlantis](https://www.thenewatlantis.com/publications/reality-is-just-a-game-now)

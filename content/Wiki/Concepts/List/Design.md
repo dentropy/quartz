@@ -1,0 +1,5 @@
+*   [Steve Jobs Insult Response - Highest Quality - YouTube](https://www.youtube.com/watch?v=oeqPrUmVz-o&list=FLY_tfCBza1s48j8pmEEZDXg&index=2&t=249s)
+*   [Design Roadmap \[DesignWIKI\]](https://deseng.ryerson.ca/dokuwiki/design:design_roadmap)
+*   [NIH Grant Applications - The Anatomy of a Specific Aims Page](https://www.biosciencewriters.com/NIH-Grant-Applications-The-Anatomy-of-a-Specific-Aims-Page.aspx)
+* [Design Roadmap](Design%20Roadmap.md)
+* [Microsoft MVP](Microsoft%20MVP.md)

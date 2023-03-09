@@ -1,0 +1,1 @@
+[Human Instrumentality](../../Wiki/Concepts/List/Human%20Instrumentality.md)

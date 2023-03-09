@@ -1,0 +1,2 @@
+* [ditch Google!! (build your own PRIVATE search engine) - YouTube](https://www.youtube.com/watch?v=ifT6npY39Dw&t=888s)
+* [searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.](https://github.com/searxng/searxng)

@@ -1,0 +1,1 @@
+What the fuck is a human social interface? Hmm maybe this is one step early. I should talk about how we derive meaning in life from our interaction with others in [posts.Self Actualization.What Humans Value](What%20Humans%20Value.md).

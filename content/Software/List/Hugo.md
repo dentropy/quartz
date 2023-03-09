@@ -1,0 +1,1 @@
+[Install Hugo | Hugo](https://gohugo.com.cn/getting-started/installing/)

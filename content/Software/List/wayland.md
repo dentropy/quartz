@@ -1,0 +1,3 @@
+[x11](x11.md)
+
+[arch linux - Gnome defaults to wayland; how can I go to back to X11? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/336219/gnome-defaults-to-wayland-how-can-i-go-to-back-to-x11)

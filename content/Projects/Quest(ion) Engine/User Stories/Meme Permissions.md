@@ -1,0 +1,15 @@
+## Meme Permissions List
+* Permissions List
+	* PUBLIC
+	* PRIVATE (Only Self)
+	* ONLY_OP
+	* ONLY_THIS_MEME
+	* ONLY_THIS_THREAD
+	* REQUIRE_PAYMENT_ROOT_OWNER
+	* REQUIRE_PAYMENT_RESPONDER_AND_ROOT_OWNER
+	* REQUIRE_PAYMENT_RESPONDER
+	* REQUIRE_PAYMENT_PERSONAL
+* Theoretical Permissions
+	* X_DEGREE
+		* DEGREE_VALUE = NUM
+	* X_PEOPLE - show a specific 

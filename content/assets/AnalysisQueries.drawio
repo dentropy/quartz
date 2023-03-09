@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="nB08spEWGsXHEV6hYXcI" name="Page-1">
+        <mxGraphModel dx="617" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="60" width="300" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="60" width="300" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="190" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Time Based Analysis&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="70" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Message Characteristics&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="80" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;Emoji / Reaction&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="380" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="220" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="240" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="260" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Length" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="120" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Length to Reacton" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="150" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Number Over Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="110" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Day of week" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="110" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Time of Day" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="140" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Activity over time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="160" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Most Reaction Per Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="280" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Popularity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="370" width="40" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

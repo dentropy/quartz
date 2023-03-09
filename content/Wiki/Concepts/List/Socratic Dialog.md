@@ -1,0 +1,1 @@
+[Socrates](../../../../MyDendronExistence/Relationships/People/Socrates.md)

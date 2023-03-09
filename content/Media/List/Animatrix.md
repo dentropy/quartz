@@ -1,0 +1,1 @@
+[Anime](../Type/Anime.md)

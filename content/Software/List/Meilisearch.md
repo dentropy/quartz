@@ -1,0 +1,1 @@
+[Installation | Meilisearch Documentation v1.0](https://docs.meilisearch.com/learn/getting_started/installation.html)

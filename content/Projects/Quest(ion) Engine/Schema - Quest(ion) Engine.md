@@ -1,0 +1,45 @@
+![Schema 0.0.8](Schema/Schema%200.0.8.svg)
+
+
+* [Database Codes - Quest(ion) Engine](Schema/Database%20Codes%20-%20Quest(ion)%20Engine.md)
+
+## Old Schema Used for Brainstorming
+* AUTH_T
+	* USER_ID - UUID Primary Key
+	* PUBLIC_KEY
+	* BEARER_TOKEN
+	* DATA
+	* SIGNED_DATA
+	* DATE_SIGNED
+	* DATE_EXPIRED
+* USER_T
+	* USER_ID - UUID Primary Key
+	* USER_ID_SET_DT
+	* PUBLIC_KEY
+	* PUBLIC_KEY_UPDATED_DT
+	* PSEUDONYM
+	* PSEUDONYM_UPDATED_DT
+* USER_PSEUDONYM_HIST_T
+	* USER_ID - UUID Primary Key
+	* OLD_PSEUDONYM
+	* DATE_SET
+* PUBLIC_KEY_ROTATION_T
+	* USER_ID - UUID Primary Key
+	* OLD_PUBLIC_KEY
+	* NEW_PUBLIC_KEY
+	* DATE_CHANGE
+	* OLD_PKEY_DATA
+	* OLD_PKEY_DATA_SIGNED
+	* NEW_PKEY_DATA
+	* NEW_PKEY_DATA_SIGNED
+* MEMES_T
+	* MEME_ID - Primary Key
+	* USER_ID
+	* MEME_CONTENT
+	* MEME_CONTEXT
+	* DATE_SET
+
+
+
+
+

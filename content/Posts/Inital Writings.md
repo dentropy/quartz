@@ -1,0 +1,8 @@
+* [Becoming A Dataist In Training](Inital%20Writings/Becoming%20A%20Dataist%20In%20Training.md)
+* [Privacy Should You Care?](Inital%20Writings/Privacy%20Should%20You%20Care?.md)
+* [How Does One Go About Wielding Their Own Plot Armor?](Inital%20Writings/How%20Does%20One%20Go%20About%20Wielding%20Their%20Own%20Plot%20Armor?.md)
+* [The Daemon is Real, Now What?](Inital%20Writings/The%20Daemon%20is%20Real,%20Now%20What?.md)
+* [What is My Vision](../Projects/DentropyDaemon/Design/vision/What%20is%20My%20Vision.md)
+* [Consciousness and Parasites](Inital%20Writings/Consciousness%20and%20Parasites.md)
+* [You took the Transhumanist Wager Now What?](Inital%20Writings/You%20took%20the%20Transhumanist%20Wager%20Now%20What?.md)
+* [Blockchain as the Operating System for the Technological Singularity](Inital%20Writings/Blockchain%20as%20the%20Operating%20System%20for%20the%20Technological%20Singularity.md)

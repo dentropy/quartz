@@ -1,0 +1,1 @@
+[ReClipped Alternatives and Similar Apps | AlternativeTo](https://alternativeto.net/software/reclipped/)

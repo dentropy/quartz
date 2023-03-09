@@ -1,0 +1,1 @@
+[EdgeDB | The post-SQL era has arrived](https://www.edgedb.com/)

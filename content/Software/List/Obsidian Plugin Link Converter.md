@@ -1,0 +1,1 @@
+[ozntel/obsidian-link-converter: Obsidian Plugin to scan all your links in your vault and convert them to your desired format.](https://github.com/ozntel/obsidian-link-converter)
